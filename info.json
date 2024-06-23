@@ -1,6 +1,6 @@
 {
 	"name": "k2-containers",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "K2: Containers",
 	"description": "Adds Krastorio 2 containers",
   "author": "NickLatkovich",
@@ -8,7 +8,10 @@
 	"dependencies": [
     "base >= 1.1.52",
 		"!Krastorio2",
-		"!Krastorio2Assets"
+		"!Krastorio2Assets",
+		"?boblogistics",
+		"?bobtech",
+		"?IndustrialRevolution"
 	],
 	"package": {
     "ignore": [".git", ".gitignore", ".vscode", "format.cfg"]

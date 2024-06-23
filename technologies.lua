@@ -49,7 +49,7 @@ data:extend({
       {type = "unlock-recipe"; recipe = "kr-big-buffer-container"};
       {type = "unlock-recipe"; recipe = "kr-big-requester-container"};
     };
-    prerequisites = {"kr-containers"; "logistic-system"};
+    prerequisites = {"kr-containers"; "logistic-system", "production-science-pack"};
     unit = {
       count = 500;
       ingredients = {

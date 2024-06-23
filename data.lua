@@ -1,3 +1,6 @@
+k2_containers = {}
+
+require("utils")
 require("paths")
 require("item-groups")
 require("items")
@@ -20,4 +23,6 @@ require("buildings/big-containers/big-storage-container");
 
 require("entities/remnants/kr-big-random-pipes-remnant")
 
+require("compatibility/boblogistics")
+require("compatibility/bobtech")
 require("compatibility/IndustrialRevolution")
